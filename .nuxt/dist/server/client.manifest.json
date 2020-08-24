@@ -4,7 +4,7 @@
     "../server/index.spa.html",
     "../server/index.ssr.html",
     "LICENSES",
-    "app.f5b73d7.js",
+    "app.b03d625.js",
     "pages/index.67209d9.js",
     "runtime.728bebe.js",
     "vendors/commons.9e9af7c.js"
@@ -12,7 +12,7 @@
   "initial": [
     "runtime.728bebe.js",
     "vendors/commons.9e9af7c.js",
-    "app.f5b73d7.js"
+    "app.b03d625.js"
   ],
   "async": [
     "pages/index.67209d9.js"
@@ -588,7 +588,7 @@
   },
   "assetsMapping": {
     "1a3ae26b": [
-      "app.f5b73d7.js"
+      "app.b03d625.js"
     ],
     "2a130dde": [
       "pages/index.67209d9.js"
