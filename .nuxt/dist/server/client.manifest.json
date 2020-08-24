@@ -5,17 +5,17 @@
     "../server/index.ssr.html",
     "LICENSES",
     "app.b03d625.js",
-    "pages/index.67209d9.js",
-    "runtime.728bebe.js",
+    "pages/index.e6fdade.js",
+    "runtime.ee01e2a.js",
     "vendors/commons.9e9af7c.js"
   ],
   "initial": [
-    "runtime.728bebe.js",
+    "runtime.ee01e2a.js",
     "vendors/commons.9e9af7c.js",
     "app.b03d625.js"
   ],
   "async": [
-    "pages/index.67209d9.js"
+    "pages/index.e6fdade.js"
   ],
   "modules": {
     "17153073": [
@@ -573,13 +573,13 @@
     "c98a1728": [
       4
     ],
-    "5dbea346": [
+    "4789b474": [
       4
     ],
     "601ed608": [
       4
     ],
-    "d9e2704e": [
+    "c3ad817c": [
       4
     ],
     "6a74bd85": [
@@ -591,10 +591,10 @@
       "app.b03d625.js"
     ],
     "2a130dde": [
-      "pages/index.67209d9.js"
+      "pages/index.e6fdade.js"
     ],
     "6fca0322": [
-      "runtime.728bebe.js"
+      "runtime.ee01e2a.js"
     ],
     "07a97964": [
       "vendors/commons.9e9af7c.js"
