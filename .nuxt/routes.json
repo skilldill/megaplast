@@ -1,5 +1,12 @@
 [
   {
+    "name": "About",
+    "path": "/About",
+    "component": "/Users/skilldill/Desktop/BASE FOLDER/TEST/megaplast/pages/About.vue",
+    "chunkName": "pages/About",
+    "_name": "_39e408c0"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "/Users/skilldill/Desktop/BASE FOLDER/TEST/megaplast/pages/index.vue",

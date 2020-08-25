@@ -43,7 +43,7 @@ module.exports =
 /******/
 /******/ 		// "0" is the signal for "already loaded"
 /******/ 		if(installedChunks[chunkId] !== 0) {
-/******/ 			var chunk = require("./" + ({"1":"pages/index"}[chunkId]||chunkId) + ".js");
+/******/ 			var chunk = require("./" + ({"1":"pages/About","2":"pages/index"}[chunkId]||chunkId) + ".js");
 /******/ 			var moreModules = chunk.modules, chunkIds = chunk.ids;
 /******/ 			for(var moduleId in moreModules) {
 /******/ 				modules[moduleId] = moreModules[moduleId];
@@ -1447,7 +1447,9 @@ if (false) {}
 
 
 
-const _3bac78b6 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 1).then(__webpack_require__.bind(null, 29))); // TODO: remove in Nuxt 3
+const _39e408c0 = () => interopDefault(__webpack_require__.e(/* import() | pages/About */ 1).then(__webpack_require__.bind(null, 29)));
+
+const _3bac78b6 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 2).then(__webpack_require__.bind(null, 30))); // TODO: remove in Nuxt 3
 
 
 const emptyFn = () => {};
@@ -1466,6 +1468,10 @@ const routerOptions = {
   linkExactActiveClass: 'nuxt-link-exact-active',
   scrollBehavior: router_scrollBehavior,
   routes: [{
+    path: "/About",
+    component: _39e408c0,
+    name: "About"
+  }, {
     path: "/",
     component: _3bac78b6,
     name: "index"
